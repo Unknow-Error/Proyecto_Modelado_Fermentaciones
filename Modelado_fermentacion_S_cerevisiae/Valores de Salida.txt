@@ -1,0 +1,122 @@
+1) Valores de warning:
+
+warning: hipergeometrica_gauss_serie: No convergió después de 7500 iteraciones para z = -0.999966
+warning: called from
+    hipergeometrica_gauss>hipergeometrica_gauss_serie at line 53 column 5
+    hipergeometrica_gauss at line 22 column 5
+    conc_S_analitica_t at line 12 column 5
+    modelo_num_analitico>@<anonymous> at line 41 column 29
+    truncar_por_S_o_FN>@<anonymous> at line 90 column 36
+    modelo_num_analitico>truncar_por_S_o_FN at line 90 column 3
+    modelo_num_analitico at line 46 column 4
+
+warning: hipergeometrica_gauss_serie: No convergió después de 7500 iteraciones para z = -0.999441
+warning: called from
+    hipergeometrica_gauss>hipergeometrica_gauss_serie at line 53 column 5
+    hipergeometrica_gauss at line 22 column 5
+    conc_S_analitica_t at line 12 column 5
+    modelo_num_analitico>@<anonymous> at line 41 column 29
+    truncar_por_S_o_FN>@<anonymous> at line 90 column 36
+    modelo_num_analitico>truncar_por_S_o_FN at line 90 column 3
+    modelo_num_analitico at line 46 column 4
+
+warning: hipergeometrica_gauss_serie: No convergió después de 7500 iteraciones para z = -0.998917
+warning: called from
+    hipergeometrica_gauss>hipergeometrica_gauss_serie at line 53 column 5
+    hipergeometrica_gauss at line 22 column 5
+    conc_S_analitica_t at line 12 column 5
+    modelo_num_analitico>@<anonymous> at line 41 column 29
+    truncar_por_S_o_FN>@<anonymous> at line 90 column 36
+    modelo_num_analitico>truncar_por_S_o_FN at line 90 column 3
+    modelo_num_analitico at line 46 column 4
+
+
+2) Valores para [YAN]i = 0.5 cmol/L:
+ans = Los valores de tiempo de computo para la solución analítica fueron para n = 1/2 : 144.348, n = 1: 334.645, n = 2 :  731.990 y n = 3: 1662.695
+
+ans = Los valores de tiempo de computo para la solución numérica  fueron para n = 1/2 : 5.967, n = 1: 6.199, n = 2 :  7.439 y n = 3: 9.068
+
+ans = Los valores finales de biomasa para la solución analítica  fueron  para para n = 1/2 : 1.170, n = 1: 1.171, n = 2 :  1.171 y  n = 3: 1.065  (cmolX/L)
+
+ans = Los valores finales de biomasa para la solución numérica fueron  para para n = 1/2 : 1.171, n = 1: 1.172, n = 2 :  1.171 y  n = 3: 1.171  (cmolX/L)
+
+ans = Los valores finales de etanol para la solución analítica  fueron  para para n = 1/2 : 5.092, n = 1: 5.093, n = 2 :  5.094 y  n = 3: 4.868  (cmolP/L)
+
+ans = Los valores finales de etanol para la solución numérica fueron  para para n = 1/2 : 5.094, n = 1: 5.095, n = 2 :  5.094 y  n = 3: 5.094  (cmolP/L)
+
+ans = Los valores finales de sustrato para la solución analítica  fueron  para para n = 1/2 : -0.000, n = 1: -0.000, n = 2 :  -0.000 y  n = 3: -0.000  (cmolS/L)
+
+ans = Los valores finales de sustrato para la solución numérica fueron  para para n = 1/2 : 0.000, n = 1: 0.000, n = 2 :  0.000 y  n = 3: 0.000  (cmolS/L)
+
+ans = Los valores finales de YAN para la solución analítica  fueron  para para n = 1/2 : 0.000, n = 1: 0.000, n = 2 :  0.000 y  n = 3: 0.046  (cmolYAN/L)
+
+ans = Los valores finales de YAN para la solución numérica fueron  para para n = 1/2 : 0.000, n = 1: 0.000, n = 2 :  0.000 y  n = 3: 0.000  (cmolYAN/L)
+
+--- Experimento 1 ---
+ P:   MAE=3.883e-03, RMSE=4.203e-03, E_inf=1.298e-02
+ X:   MAE=9.599e-04, RMSE=1.065e-03, E_inf=3.629e-03
+ S:   MAE=2.326e-03, RMSE=2.470e-03, E_inf=6.648e-03
+ YAN:  MAE=4.117e-04, RMSE=4.590e-04, E_inf=1.588e-03
+
+--- Experimento 2 ---
+ P:   MAE=5.004e-03, RMSE=7.771e-03, E_inf=3.200e-02
+ X:   MAE=1.263e-03, RMSE=2.113e-03, E_inf=8.902e-03
+ S:   MAE=2.929e-03, RMSE=4.171e-03, E_inf=1.652e-02
+ YAN:  MAE=3.723e-04, RMSE=8.797e-04, E_inf=3.896e-03
+
+--- Experimento 3 ---
+ P:   MAE=3.005e-02, RMSE=5.219e-02, E_inf=1.510e-01
+ X:   MAE=7.109e-03, RMSE=1.411e-02, E_inf=4.072e-02
+ S:   MAE=1.886e-02, RMSE=2.842e-02, E_inf=8.134e-02
+ YAN:  MAE=3.086e-03, RMSE=6.172e-03, E_inf=1.782e-02
+
+--- Experimento 4 ---
+ P:   MAE=3.614e-01, RMSE=3.975e-01, E_inf=5.509e-01
+ X:   MAE=9.071e-02, RMSE=9.923e-02, E_inf=1.450e-01
+ S:   MAE=2.128e-01, RMSE=2.364e-01, E_inf=3.099e-01
+ YAN:  MAE=3.970e-02, RMSE=4.343e-02, E_inf=6.347e-02
+
+3)  Valores para [YAN]i = 200  mg/L
+ans = Los valores de tiempo de computo para la solución analítica fueron para n = 1/2 : 105.453, n = 1: 260.668, n = 2 :  564.384 y n = 3: 1018.652
+
+ans = Los valores de tiempo de computo para la solución numérica  fueron para n = 1/2 : 1935.669, n = 1: 1939.414, n = 2 :  1893.802 y n = 3: 1874.841
+
+ans = Los valores finales de biomasa para la solución analítica  fueron  para para n = 1/2 : 0.058, n = 1: 0.058, n = 2 :  0.058 y  n = 3: 0.058  (cmolX/L)
+
+ans = Los valores finales de biomasa para la solución numérica fueron  para para n = 1/2 : 0.058, n = 1: 0.058, n = 2 :  0.058 y  n = 3: 0.058  (cmolX/L)
+
+ans = Los valores finales de etanol para la solución analítica  fueron  para para n = 1/2 : 2.730, n = 1: 2.730, n = 2 :  2.730 y  n = 3: 2.730  (cmolP/L)
+
+ans = Los valores finales de etanol para la solución numérica fueron  para para n = 1/2 : 2.731, n = 1: 2.731, n = 2 :  2.731 y  n = 3: 2.731  (cmolP/L)
+
+ans = Los valores finales de sustrato para la solución analítica  fueron  para para n = 1/2 : -0.000, n = 1: -0.000, n = 2 :  -0.000 y  n = 3: -0.000  (cmolS/L)
+
+ans = Los valores finales de sustrato para la solución numérica fueron  para para n = 1/2 : 0.000, n = 1: 0.000, n = 2 :  0.000 y  n = 3: 0.000  (cmolS/L)
+
+ans = Los valores finales de YAN para la solución analítica  fueron  para para n = 1/2 : 0.000, n = 1: 0.000, n = 2 :  0.000 y  n = 3: 0.000  (cmolYAN/L)
+
+ans = Los valores finales de YAN para la solución numérica fueron  para para n = 1/2 : 0.000, n = 1: 0.000, n = 2 :  0.000 y  n = 3: 0.000  (cmolYAN/L)
+
+--- Experimento 1 ---
+ P:   MAE=1.880e-03, RMSE=2.100e-03, E_inf=3.498e-03
+ X:   MAE=7.191e-05, RMSE=7.192e-05, E_inf=1.017e-04
+ S:   MAE=2.179e-03, RMSE=2.477e-03, E_inf=4.219e-03
+ YAN:  MAE=2.131e-05, RMSE=2.131e-05, E_inf=4.449e-05
+
+--- Experimento 2 ---
+ P:   MAE=2.106e-03, RMSE=2.353e-03, E_inf=3.923e-03
+ X:   MAE=8.082e-05, RMSE=8.083e-05, E_inf=2.630e-04
+ S:   MAE=2.440e-03, RMSE=2.776e-03, E_inf=4.732e-03
+ YAN:  MAE=2.200e-05, RMSE=2.201e-05, E_inf=1.151e-04
+
+--- Experimento 3 ---
+ P:   MAE=2.508e-03, RMSE=2.804e-03, E_inf=4.680e-03
+ X:   MAE=9.668e-05, RMSE=9.675e-05, E_inf=5.781e-04
+ S:   MAE=2.904e-03, RMSE=3.307e-03, E_inf=5.644e-03
+ YAN:  MAE=2.338e-05, RMSE=2.345e-05, E_inf=2.530e-04
+
+--- Experimento 4 ---
+ P:   MAE=2.844e-03, RMSE=3.182e-03, E_inf=5.316e-03
+ X:   MAE=1.101e-04, RMSE=1.102e-04, E_inf=8.834e-04
+ S:   MAE=3.292e-03, RMSE=3.752e-03, E_inf=6.410e-03
+ YAN:  MAE=2.479e-05, RMSE=2.496e-05, E_inf=3.867e-04
