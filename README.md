@@ -7,6 +7,8 @@ Este proyecto es un código implementado en MATLAB para la simulación de un pro
 4. Modelo de Caja Negra para el balanceo de materia de la ecuación de crecimiento.
 5. Modelo de Pirt para el análisis del sustrato destinado a mantenimiento celular.
 
+Para más detalles de los modelos empleados, lea "Informe_Tecnico___Simulacion_MATLAB_Octave___Fermentacion_anaerobia_S__cerevisiae.pdf". 
+
 ## Uso
 
 ```bash
